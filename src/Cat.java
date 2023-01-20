@@ -1,26 +1,47 @@
 public class Cat {
-    String breed;
-    String name;
-    int age;
-    int weight;
 
 
-    public Cat (String poroda, String nameCat, int ageCat, int ves){
-        breed = poroda;
-        name = nameCat;
-        age = ageCat;
-        weight = ves;
-    }
+  private Katenok katenok = new Katenok ();
+    private String name; // Параметр класса
+//    private  модификатор доступа который работает только внутри класса
+//    public  модификатор доступа который работает публично (Везде)
+//    protected Работает в пределах наследников класса
+//    default работает в пределах пакета
 
-    public void printCat(){
-        System.out.println ("Парода кошки: " + breed );
-        System.out.println ("Имя кошки: " + name );
-        System.out.println ("Возраст кошки: " + age );
-        System.out.println ("Вес кошки: " + weight );
-    }
+        public void setName(String name){
+            // Сеттер создан для того чтобы принимать параметры
+            // и вносить их в данные класса
+            this.name = name;
+            // this = указатель на объект класса (Нынешний)
+        }
+        public  String getName(){
+            // Геттер Создан для того что бы отдавать параметр класса
+            return this.name;
+        }
 
-    public String getCat(){
-        return breed + " " + name + " " + age + " " + weight;
-    }
+        public void printCatKatenok(){
+            katenok.printKatenok ();
+        }
+
+
+
+      private class Katenok{
+
+            // Приватный класс может быть создан
+            // внутри класса и существовать только в пределах основного класса
+          private String name;
+
+          public Katenok(){
+              name = "Катенок";
+          }
+
+          public void printKatenok(){
+              System.out.println (name );
+          }
+      }
+
+      private class Dog{
+
+      }
 
 }

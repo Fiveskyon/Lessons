@@ -1,17 +1,17 @@
-import java.util.Arrays;
+
 
 public class Main {
 
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat ("Сиамская кошка", "Багира", 7, 500 );
-        cat1.printCat ();
+        Cat cat1 = new Cat ();
+        cat1.setName ( "Мурзик" );
+        Cat cat2 = new Cat ();
+        cat2.setName ( "Барсик" );
 
 
-//        cat1.breed = ;
-//        cat1.name = "Багира";
-//        cat1.age = 7;
-//        cat1.weight = 500;
+//        System.out.println (cat2.getName () );
+        cat2.printCatKatenok ();
 
     }
 
@@ -19,13 +19,3 @@ public class Main {
 
 }
 
-/**
- * 1 задача
- * Рассказать своими словами что такое класс и для чего его используют. Привести антологию из реальной жизни
- * Рассказать про структуру класса  и из чего он состоит.
- * Рассказать своими словами что такое объект класса.
- *
- * 2 Задача
- * Создать классы : Человек, Собака, Кошка, Птица.
- * Реализовать функцию вывода информации об объекте класса.
- */

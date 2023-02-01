@@ -1,39 +1,17 @@
-import java.util.Random;
-
 public class Main {
-
     public static void main(String[] args) {
 
+       Object[] items = new Object[5];
+       items[0] = 14;
+       items[1] = 90;
+       items[2] = "String";
+       items[3] = 56.70;
+       items[4] = true;
 
-        int[] nums = {13,16,0,436,89,9}; // {250}
-//
-//        NumbersArray arraus = new NumbersArray ();
-//        arraus.setNumsArray ( nums );
-//        arraus.add ( 675 );
-//        arraus.printArrays ();
-//        arraus.setNumsArray ( new int[]{13,16,0,436,89,9} );
-
-
-        // =============================== Static
-        ArrayNums.printArray ( nums );
-        nums = ArrayNums.setLengthMore ( nums, 250 );
-        ArrayNums.printArray ( nums );
+        for (int i = 0 ; i < items.length ; i++) {
+            System.out.println (items[i] );
+        }
 
 
     }
-
-    /**
-     *  Задание №_4
-     *  Ответь на вопрос что такое ООП и для чего он нужен
-     *
-     *  Задание №_5
-     *  Рассказать как ты понимаешь что такое модификаторы доступа
-     *
-     *  Задание №_6
-     *  Рассказать про структуру класса
-     */
-
-
-
 }
-

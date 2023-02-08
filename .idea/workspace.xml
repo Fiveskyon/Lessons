@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b7446265-be7b-497d-86b9-3eb633576e3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/KeyBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/Monitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/SystemBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/HardDisc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/MoatherBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/PowerBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/VideoCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/moather_board/OperRam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compucter/stracter/system_block/moather_board/Processor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lessons/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lessons/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chaild.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Man.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lessons_9" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LSiU9Ei4sI2lWci1y1AKq6riAn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="com.soywiz.korge.intellij.UpdateResourceBeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b7446265-be7b-497d-86b9-3eb633576e3f" name="Changes" comment="" />
+      <created>1675870899291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675870899291</updated>
+    </task>
+    <servers />
+  </component>
+</project>
